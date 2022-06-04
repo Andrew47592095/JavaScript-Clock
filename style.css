@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(49, 50, 49);
+}
+
+.clock {
+  width: 600px;
+  height: 200px;
+  background-color: #000;
+  margin: 100px auto;
+  border-radius: 5px;
+  outline: 5px solid #fff;
+  box-shadow: 0 0 40px;
+}
+
+.clock__inside {
+  color: white;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+}
+
+.time {
+  font-size: 95px;
+  text-shadow: 0 0 30px;
+}
+
+.date {
+  font-size: 45px;
+  font-family: sans-serif;
+  text-shadow: 0 0 10px;
+}
